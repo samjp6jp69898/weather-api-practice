@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.city1 {
+  margin-top: 10vh;
+  text-align: center;
+  width: 70vw;
+  height: 80vh;
+  color: aliceblue;
+  background-repeat:no-repeat;
+  background: url("./image/sky.jpeg") center center/cover no-repeat;
+  border-radius: 15px;
+}
+
+.city1 h2 {
+  font-size: 4vw;
+  font-weight: 800;
+  margin-bottom: 15vh;
+}
+
+.city1 p {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.time1 {
+  display: inline-block;
+  width: 30%;
+}
+
+.time2 {
+  display: inline-block;
+  width: 30%;
+}
+
+.time3{
+  display: inline-block;
+  width: 30%;
+}
+
+.dropdown {
+  list-style: none;
+  width: 20vw;
+  height: 10vh;
+  text-align: center;
+  margin: 50px 0px 30px;
+  font-size: 3vw;
+  font-weight: 700;
+  background-color: transparent;
+  color: #fff;
+}
+
+.dropdown:hover {
+  border:1px solid #fff;
+  box-shadow: 0px 0px 40px 20px rgb(0, 112, 216);
+}
+
+.cityOption {
+  font-size: 2vw;
+}
